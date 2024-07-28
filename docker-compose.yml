@@ -1,0 +1,11 @@
+version: '3'
+services:
+  task:
+    build: .
+    volumes:
+      - ./orders.csv:/app/orders.csv
+    command: python code/script.py
+
+  test:
+    build: .
+    command: python code/tests.py
