@@ -1,0 +1,10 @@
+attrs==21.2.0
+bcrypt==3.2.0
+blinker==1.4
+certifi==2020.6.20
+chardet==4.0.0
+click==8.0.3
+colorama==0.4.4
+cryptography==3.4.8
+docker==5.0.3
+docker-compose==1.29.2
