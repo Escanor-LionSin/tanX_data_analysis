@@ -19,7 +19,7 @@ Submission for tanX task
 Repo/
 │
 ├── code/
-│   ├/── script.py
+│   ├── script.py
 │   ├── test.py
 ├── data
 │   ├── orders.csv
@@ -41,8 +41,11 @@ Repo/
 docker-compose run task
 ```
 
-3. To run the tests:
+4. To run the tests:
 
 ```
 docker-compose run test
 ```
+If you want to run the task on a different dataset, then replace the orders.csv file with a dataset file of your choice.
+
+🗿
